@@ -5,14 +5,14 @@ debounce written for deno
 ## Usage
 
 ```ts
-import { debounce } from "https://deno.land/x/debounce@v0.0.6/mod.ts";
+import { debounce } from "https://deno.land/x/debounce@v0.0.7/mod.ts";
 ```
 
 ## Example
 
 ```ts
 import { delay } from "https://deno.land/std@0.125.0/async/delay.ts";
-import { debounce } from "https://deno.land/x/debounce@v0.0.6/mod.ts";
+import { debounce } from "https://deno.land/x/debounce@v0.0.7/mod.ts";
 
 (async (delayMs = 100) => {
   let x = 0;
