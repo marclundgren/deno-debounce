@@ -5,6 +5,12 @@ debounce written for deno
 ## Usage
 
 ```ts
+import { debounce } from "https://deno.land/x/debounce@v0.0.4/mod.ts";
+```
+
+## Example
+
+```ts
 import { delay } from "https://deno.land/std@0.125.0/async/delay.ts";
 import { debounce } from "https://deno.land/x/debounce@v0.0.4/mod.ts";
 
